@@ -14,7 +14,7 @@ PAYPAL_CLIENT_ID="client_id generado en paypal"
 PAYPAL_SECRET="secret generado en paypal"  
 
 ## Steps to configure project:
-Ejecutar los siguientes comandos desde la consola:
+Ejecutar los siguientes comandos desde la consola:  
 1.- composer install  
 2.- cp .env.example .env  
 3.- php artisan sail:install  
@@ -27,6 +27,8 @@ Ejecutar los siguientes endpoints desde el archivo postman:
 1.1.- Copiar el valor del token generado en la variable postman "valid_token"  
 2.-   create-order (puede cambiar los valores de los campos)  
 
-Desde un navegador, abrir el siguiente enlace:
+Desde un navegador, abrir el siguiente enlace:  
 http://localhost/api/users/login (Colocar email y password del usuario registrado vía postman)  
 Luego será presentada una vista con el pedido registrado via postman en el que debe hacer click para efectuar el pago via paypal  
+
+En la carpeta /tests/Feature está la colección postman para ejecutar los scripts
