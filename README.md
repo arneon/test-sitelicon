@@ -23,10 +23,10 @@ Ejecutar los siguientes comandos desde la consola:
 6.- sail artisan migrate  
 
 Ejecutar los siguientes endpoints desde el archivo postman:
-1.-   user-register (Puede cambiar los valores de los campos)
-1.1.- Copiar el valor del token generado en la variable postman "valid_token"
-2.-   create-order (puede cambiar los valores de los campos)
+1.-   user-register (Puede cambiar los valores de los campos)  
+1.1.- Copiar el valor del token generado en la variable postman "valid_token"  
+2.-   create-order (puede cambiar los valores de los campos)  
 
 Desde un navegador, abrir el siguiente enlace:
-http://localhost/api/users/login (Colocar email y password del usuario registrado vía postman)
-Luego será presentada una vista con el pedido registrado via postman
+http://localhost/api/users/login (Colocar email y password del usuario registrado vía postman)  
+Luego será presentada una vista con el pedido registrado via postman en el que debe hacer click para efectuar el pago via paypal  
