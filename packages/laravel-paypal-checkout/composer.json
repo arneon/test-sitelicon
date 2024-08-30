@@ -1,0 +1,23 @@
+{
+    "name": "arneon/laravel-paypal-checkout",
+    "description": "Paypal checkout",
+    "minimum-stability": "stable",
+    "version": "1.0.0",
+    "type": "package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Arnaldo Orozco Nuñez",
+            "email": "arneon@gmail.com"
+        }
+    ],
+    "require": {
+        "paypal/paypal-checkout-sdk": "^1.0",
+        "arneon/laravel-orders": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Arneon\\LaravelPaypalCheckout\\": "src/"
+        }
+    }
+}
