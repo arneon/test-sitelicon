@@ -22,7 +22,7 @@ Ejecutar los siguientes comandos desde la consola:
 5.- sail artisan key:generate  
 6.- sail artisan migrate  
 
-Ejecutar los siguientes endpoints desde el archivo postman:
+Ejecutar los siguientes endpoints desde el archivo postman:  
 1.-   user-register (Puede cambiar los valores de los campos)  
 1.1.- Copiar el valor del token generado en la variable postman "valid_token"  
 2.-   create-order (puede cambiar los valores de los campos)  
