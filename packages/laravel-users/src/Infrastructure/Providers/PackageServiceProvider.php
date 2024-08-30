@@ -18,7 +18,7 @@ class PackageServiceProvider extends ServiceProvider
         $this->loadRoutesFrom(__DIR__.'/../Routes/Api.php');
 
         $this->publishes([
-            __DIR__ . '/../../../tests' => base_path('/tests/laravel-google-auth'),
+            __DIR__ . '/../../../tests' => base_path('/tests/laravel-users'),
         ], 'tests');
 
         $this->loadViewsFrom(__DIR__ . '/../Views', 'arneon/laravel-users');
